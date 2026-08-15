@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guided Webapp Builder"
+  short_description: "Build beginner web apps one checkpoint at a time"
+  default_prompt: "Use $guided-webapp-builder to scope my idea and complete only the next safe web-app checkpoint."
