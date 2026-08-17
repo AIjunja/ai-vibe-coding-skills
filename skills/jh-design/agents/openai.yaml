@@ -1,4 +1,4 @@
 interface:
   display_name: "JH Design"
-  short_description: "Translate brand evidence and references into responsive design"
-  default_prompt: "Use $jh-design to audit the real brand and media, assign references clear roles, write an evidence-based design prompt and copy ladder, implement responsive design and motion, and verify mobile, behavior, and build quality."
+  short_description: "Turn inspected references into distinctive motion-rich UI"
+  default_prompt: "Use $jh-design to inspect live references, map them to real components, implement a signature composition and purposeful motion system, reject generic templates, and prove desktop, mobile, states, and motion quality."

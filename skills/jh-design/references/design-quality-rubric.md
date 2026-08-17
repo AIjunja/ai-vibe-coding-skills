@@ -36,16 +36,28 @@ Score each item from 0 to 2.
 14. The result does not copy proprietary words, identity, imagery, or an entire layout.
 15. Structure, interaction, and visual tone form one coherent direction.
 
+## Reference Implementation Evidence
+
+16. Selected references were opened at a concrete page, component, and state rather than named from memory.
+17. Every reference principle maps to a real local component, motion or state, mobile translation, and acceptance capture.
+18. The rendered result visibly contains the mapped principles; unsupported claims were removed from the brief.
+
+## Expressive Craft
+
+19. The result has one project-specific signature composition and one signature component beyond renamed generic cards.
+20. One orchestrated motion sequence and at least three useful microinteractions are implemented and proven with motion evidence.
+21. The design passes the anti-template test: identity, spatial hierarchy, data or media treatment, and interaction remain distinctive without relying on a logo.
+
 ## Brand, Copy, And Media
 
-16. The visual system derives from verified identity, materials, content, or product behavior rather than a pasted logo.
-17. The opening tension, promise, proof, and CTA are original, specific, and supported by available evidence.
-18. Hero media provenance, mobile crop or asset, poster fallback, and copy-safe area are verified.
+22. The visual system derives from verified identity, materials, content, or product behavior rather than a pasted logo.
+23. The opening tension, promise, proof, and CTA are original, specific, and supported by available evidence.
+24. Hero media provenance, mobile crop or asset, poster fallback, and copy-safe area are verified when media is used.
 
 ## Technical Integrity
 
-19. Core behavior and factual output match the pre-design version.
-20. No unnecessary framework, library, API, secret, or personal data was added.
-21. The production build succeeds.
+25. Core behavior and factual output match the pre-design version.
+26. No unnecessary framework, library, API, secret, or personal data was added.
+27. The production build succeeds.
 
-Target at least `35/42`, with no zero in Brand, Copy, And Media, Technical Integrity, or Responsive Quality. A visually strong result that changes the business logic or uses unverified media does not pass.
+Target at least `46/54`, with no zero in Reference Implementation Evidence, Expressive Craft, Brand, Copy, And Media, Technical Integrity, or Responsive Quality. A build that passes technically but looks like a generic template does not pass. Iterate before reporting completion.

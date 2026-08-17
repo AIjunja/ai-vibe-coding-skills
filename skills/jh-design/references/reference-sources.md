@@ -2,6 +2,19 @@
 
 Use this list as a starting map, not as a substitute for examining the project's actual users and content. Check live sources because collections and interfaces change.
 
+## High-Craft Component And Motion Sources
+
+| Source | Best for | Inspect | Caution |
+|---|---|---|---|
+| [21st.dev](https://21st.dev/) | AI-ready React components, marketing blocks, real app screens, shaders | open the live preview and copy its prompt only after identifying anatomy and states | a copied prompt is not brand translation |
+| [Magic UI](https://magicui.design/docs/components) | animated bento, number ticker, marquee, text reveal, interactive buttons, media blocks | trigger, timing, layers, mobile and reduced-motion behavior | use one coherent effect family, not a demo wall |
+| [Aceternity UI](https://ui.aceternity.com/explore) | expressive hero, parallax, spotlight, text and media transitions | performance, pointer behavior, text safety and graceful fallback | default effects can overpower operational products |
+| [Motion for React](https://motion.dev/docs/react) | scroll-triggered, scroll-linked, layout and gesture animation | `whileInView`, `useScroll`, `layout`, `AnimatePresence`, reduced motion | fading every section is not a motion concept |
+| [GSAP ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) | pinned, scrubbed, sequential storytelling | pin duration, scroll distance, cleanup and mobile behavior | use only when a timeline materially improves understanding |
+| [Rive Community](https://rive.app/community/) | interactive brand mark, illustration and state machine | input/state behavior and fallback asset | check license and loading cost |
+
+The component catalog is not the final design system. Select one component family, inspect a concrete demo, and rewrite its tokens, content, states, and responsive behavior around the project.
+
 ## Operational Products And Workflows
 
 | Source | Best for | Search for | Caution |
@@ -33,6 +46,18 @@ Use this list as a starting map, not as a substitute for examining the project's
 | Portfolio or instructor site | Refs.Gallery + A1 Gallery + Lapa Ninja | case-study flow, typography, proof |
 | E-commerce or promotion page | Mobbin + Lapa Ninja + Page Flows | conversion structure, visual tone, user flow |
 | Public institution service | GOV.UK + UX Patterns + one client brand source | task clarity, accessible pattern, identity |
+| Cinematic brand site | Godly or A1 Gallery + one live industry site + Motion or Magic UI | composition, proof order, signature motion |
+| Distinctive dashboard | Mobbin or SaaSFrame + Tremor/Recharts + Motion + one 21st.dev app screen | task flow, data story, component craft, state motion |
+| AI product | The Shape of AI + Mobbin/Page Flows + assistant-ui or 21st.dev | trust flow, prompt/result states, expressive shell |
+
+## Minimum Source Combination By Product
+
+- **Brand or landing:** one live industry page + one high-craft composition source + one motion/component demo.
+- **Dashboard or report:** one real product screen + one data-visualization pattern + one interaction/motion demo.
+- **Mobile app:** one complete Mobbin/Page Flows flow + platform guideline + one transition/state reference.
+- **AI interface:** one trust/AI UX pattern + one real product flow + one result-state component reference.
+
+Inspect only sources that affect a decision, but do not begin implementation with zero live component or motion evidence.
 
 ## Search Discipline
 
@@ -42,3 +67,5 @@ Use this list as a starting map, not as a substitute for examining the project's
 4. Record why each reference is relevant and where it does not fit.
 5. Prefer current real products over generic template screenshots.
 6. Stop collecting after the design direction is supported. More references do not automatically improve the result.
+7. Record the exact component demo or page section, not only the gallery home page.
+8. Map every selected source to a local component and acceptance capture before coding.
