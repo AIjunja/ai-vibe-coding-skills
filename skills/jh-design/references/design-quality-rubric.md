@@ -36,10 +36,16 @@ Score each item from 0 to 2.
 14. The result does not copy proprietary words, identity, imagery, or an entire layout.
 15. Structure, interaction, and visual tone form one coherent direction.
 
+## Brand, Copy, And Media
+
+16. The visual system derives from verified identity, materials, content, or product behavior rather than a pasted logo.
+17. The opening tension, promise, proof, and CTA are original, specific, and supported by available evidence.
+18. Hero media provenance, mobile crop or asset, poster fallback, and copy-safe area are verified.
+
 ## Technical Integrity
 
-16. Core behavior and factual output match the pre-design version.
-17. No unnecessary framework, library, API, secret, or personal data was added.
-18. The production build succeeds.
+19. Core behavior and factual output match the pre-design version.
+20. No unnecessary framework, library, API, secret, or personal data was added.
+21. The production build succeeds.
 
-Target at least `30/36`, with no zero in Technical Integrity or Responsive Quality. A visually strong result that changes the business logic does not pass.
+Target at least `35/42`, with no zero in Brand, Copy, And Media, Technical Integrity, or Responsive Quality. A visually strong result that changes the business logic or uses unverified media does not pass.

@@ -29,6 +29,9 @@ Create one card per selected reference.
 
 ### Translation into this project
 - Current content mapped to the pattern:
+- Brand identity rule that transforms the reference:
+- Hook or copy implication:
+- Motion or media implication:
 - Mobile change:
 - Accessibility or usability correction:
 - Risk to verify:
@@ -42,6 +45,8 @@ After writing the cards, summarize:
 Structure comes from:
 Interaction comes from:
 Visual tone comes from:
+Hook/copy energy comes from:
+Motion/media behavior comes from:
 The final screen will not copy:
 ```
 
