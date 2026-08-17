@@ -5,14 +5,14 @@
 
 ## 포함된 스킬
 
-### `guided-webapp-builder`
+### `jh-build`
 
 기획서를 한 번에 거대한 앱으로 만들지 않고 다음 체크포인트 하나씩
 진행합니다
 
 `범위 확인 → 환경 확인 → 첫 화면 → 핵심 기능 → 오류·모바일 → 빌드 → 인수인계`
 
-### `reference-driven-web-design`
+### `jh-design`
 
 레퍼런스의 구조와 시각 원리를 먼저 분석한 뒤 작동하는 기능을 유지하며
 정보 위계, 입력, 결과, 오류 상태, 모바일 화면을 정돈합니다
@@ -32,7 +32,7 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 한 개만 설치하려면 다음처럼 이름을 지정합니다
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\install.ps1 -Skill guided-webapp-builder
+powershell -ExecutionPolicy Bypass -File .\install.ps1 -Skill jh-build
 ```
 
 ## macOS와 Linux 설치
@@ -43,17 +43,37 @@ cd ai-vibe-coding-skills
 bash ./install.sh
 ```
 
-설치 후 Codex를 다시 열고 아래처럼 요청합니다
+## Codex에 붙여넣어 설치하기
+
+명령어를 직접 입력하기 어렵다면 Codex 새 작업에 아래 프롬프트를 그대로
+붙여넣습니다
 
 ```text
-$guided-webapp-builder
+다음 공개 GitHub 저장소의 README를 먼저 읽어주세요
+https://github.com/AIjunja/ai-vibe-coding-skills
+
+Windows 설치 방법에 따라 아래 두 스킬을 설치해주세요
+
+- jh-build
+- jh-design
+
+설치 전에 설치할 원본 경로와 제 컴퓨터의 대상 경로를 보여주세요
+기존 프로젝트 파일은 수정하지 마세요
+설치 후 두 SKILL.md의 실제 경로와 name 값을 확인해주세요
+마지막에 Codex를 다시 열어야 하는지도 알려주세요
+```
+
+설치 후 Codex를 완전히 닫았다 다시 열고 아래처럼 요청합니다
+
+```text
+$jh-build
 
 첨부한 기획서를 읽고 오늘 만들 범위와 미룰 범위를 나눠주세요
 아직 코드를 수정하지 말고 다음 체크포인트 하나만 제안해주세요
 ```
 
 ```text
-$reference-driven-web-design
+$jh-design
 
 현재 작동하는 기능은 바꾸지 말고 레퍼런스 기반 디자인 점검을 진행해주세요
 수정 전에 참고한 원리와 바꿀 항목을 먼저 보여주세요
@@ -64,8 +84,8 @@ $reference-driven-web-design
 아래 폴더가 보이면 설치된 상태입니다
 
 ```text
-~/.codex/skills/guided-webapp-builder
-~/.codex/skills/reference-driven-web-design
+~/.codex/skills/jh-build
+~/.codex/skills/jh-design
 ```
 
 ## 수업과 조직에서 사용할 때

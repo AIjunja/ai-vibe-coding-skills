@@ -1,9 +1,9 @@
 ---
-name: reference-driven-web-design
+name: jh-design
 description: Research fitting visual references and turn a working web app into a clear, distinctive, responsive design while preserving its behavior. Use for any company, institution, or individual course when the user provides reference sites, screenshots, PDFs, or only a desired mood; when Gmarket Sans should be installed; or when a visible before-and-after design pass, mobile verification, and build QA are required.
 ---
 
-# Reference-Driven Web Design
+# JH Design
 
 Design from evidence, not vague adjectives. Collect a small set of relevant references, explain what will be borrowed from each one, translate those decisions into a project-specific visual system, install Gmarket Sans when appropriate, preserve the working behavior, and prove the result on desktop and mobile.
 

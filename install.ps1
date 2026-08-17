@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('all', 'guided-webapp-builder', 'reference-driven-web-design')]
+    [ValidateSet('all', 'jh-build', 'jh-design')]
     [string]$Skill = 'all',
     [string]$DestinationRoot = (Join-Path $HOME '.codex\skills')
 )
@@ -8,7 +8,7 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $skillsRoot = $DestinationRoot
 $names = if ($Skill -eq 'all') {
-    @('guided-webapp-builder', 'reference-driven-web-design')
+    @('jh-build', 'jh-design')
 } else {
     @($Skill)
 }

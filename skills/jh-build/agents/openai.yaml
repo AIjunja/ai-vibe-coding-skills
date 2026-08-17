@@ -1,0 +1,4 @@
+interface:
+  display_name: "JH Build"
+  short_description: "Build beginner web apps one checkpoint at a time"
+  default_prompt: "Use $jh-build to scope my idea and complete only the next safe web-app checkpoint."

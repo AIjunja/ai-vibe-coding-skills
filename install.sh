@@ -6,10 +6,10 @@ skills_root="${CODEX_HOME:-$HOME/.codex}/skills"
 requested="${1:-all}"
 
 case "$requested" in
-  all) names=(guided-webapp-builder reference-driven-web-design) ;;
-  guided-webapp-builder|reference-driven-web-design) names=("$requested") ;;
+  all) names=(jh-build jh-design) ;;
+  jh-build|jh-design) names=("$requested") ;;
   *)
-    echo "Usage: bash install.sh [all|guided-webapp-builder|reference-driven-web-design]" >&2
+    echo "Usage: bash install.sh [all|jh-build|jh-design]" >&2
     exit 2
     ;;
 esac

@@ -1,9 +1,9 @@
 ---
-name: guided-webapp-builder
+name: jh-build
 description: Turn a beginner's planning document into one small, testable web-app checkpoint at a time. Use in hands-on AI or vibe-coding classes to scope an idea, preserve the shared starter stack, build the next visible screen or function, recover a broken project, verify the result, and keep mixed-level learners moving without letting databases, APIs, authentication, or deployment overwhelm the session.
 ---
 
-# Build One Teachable Web-App Checkpoint
+# JH Build
 
 Help a novice finish one visible result, understand what changed, and retain a
 working version. Follow the course's constraints before general web-development
