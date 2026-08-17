@@ -9,10 +9,32 @@ Help a novice finish one visible result, understand what changed, and retain a
 working version. Follow the course's constraints before general web-development
 conventions.
 
+## Acquire Or Create The Brief
+
+1. Look for `PROJECT_BRIEF.md`, a clearly named PRD, or the learner's planning
+   document.
+2. If no brief exists, or the learner says the idea has changed, do not block
+   the session. Ask at most three high-impact questions covering:
+   - who will use it and what frustrating task it should reduce,
+   - what the user provides and what result should appear,
+   - the one function that must work today.
+3. Label unanswered details as safe assumptions or follow-up items.
+4. Draft `PROJECT_BRIEF.md` before implementation with:
+   - problem and user,
+   - current workflow,
+   - input, processing rule, and output,
+   - today's one-function scope,
+   - deferred features and safety boundaries,
+   - sample data,
+   - visible completion evidence and two acceptance tests.
+5. Show the draft in beginner-friendly Korean and wait for approval before
+   implementation. A planning document is useful input, not an admission
+   requirement.
+
 ## Read The Local Contract
 
-1. Find the learner's brief. Prefer `PROJECT_BRIEF.md`, then a clearly named PRD
-   or planning document.
+1. Read the learner's brief. Prefer `PROJECT_BRIEF.md`, then a clearly named PRD
+   or planning document. Create the brief first when none exists.
 2. Read `AGENTS.md`, `COURSE_CONSTRAINTS.md`, and `CHECKPOINTS.md` when present.
 3. Inspect only the files needed for the current checkpoint.
 4. If the brief is incomplete, ask at most three blocking questions. Label safe
